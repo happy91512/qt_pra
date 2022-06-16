@@ -152,27 +152,6 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="time">
-    <property name="geometry">
-     <rect>
-      <x>1430</x>
-      <y>160</y>
-      <width>121</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Time</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
    <widget class="QPushButton" name="open_buttom_2">
     <property name="geometry">
      <rect>
@@ -195,7 +174,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>430</y>
+      <y>450</y>
       <width>256</width>
       <height>256</height>
      </rect>
@@ -215,8 +194,8 @@
    <widget class="QLabel" name="resized_img">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>320</y>
+      <x>340</x>
+      <y>340</y>
       <width>480</width>
       <height>480</height>
      </rect>
@@ -236,8 +215,8 @@
    <widget class="QLabel" name="Bilinear_img">
     <property name="geometry">
      <rect>
-      <x>920</x>
-      <y>320</y>
+      <x>900</x>
+      <y>340</y>
       <width>480</width>
       <height>480</height>
      </rect>
@@ -254,11 +233,11 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="time_2">
+   <widget class="QLabel" name="time_5">
     <property name="geometry">
      <rect>
       <x>1440</x>
-      <y>520</y>
+      <y>570</y>
       <width>121</width>
       <height>81</height>
      </rect>
@@ -269,7 +248,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Time</string>
+     <string>Resize_Time</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -279,7 +258,7 @@
     <property name="geometry">
      <rect>
       <x>1400</x>
-      <y>410</y>
+      <y>420</y>
       <width>201</width>
       <height>81</height>
      </rect>
@@ -312,6 +291,111 @@
     </property>
     <property name="text">
      <string>Resize</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="time_6">
+    <property name="geometry">
+     <rect>
+      <x>1440</x>
+      <y>650</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>B_ITP_Time</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="time_4">
+    <property name="geometry">
+     <rect>
+      <x>1440</x>
+      <y>490</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Open_Time</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="time_3">
+    <property name="geometry">
+     <rect>
+      <x>1430</x>
+      <y>270</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ifft_Time</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="time_2">
+    <property name="geometry">
+     <rect>
+      <x>1430</x>
+      <y>190</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>fft_Time</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="time_1">
+    <property name="geometry">
+     <rect>
+      <x>1430</x>
+      <y>110</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Open_Time</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>
