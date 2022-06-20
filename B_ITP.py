@@ -1,6 +1,8 @@
 import numpy as np
 import cv2
+from numba import jit
 
+@jit(nopython = True)
 def bilinear(org_img, org_shape, dst_shape):
     dst_img = np.zeros((dst_shape[0], dst_shape[1], 3))
     dst_h, dst_w = dst_shape
