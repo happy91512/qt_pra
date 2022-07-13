@@ -53,7 +53,7 @@ class MainWindow(QtWidgets.QMainWindow):
             img_arr = cv2.imread(filename, cv2.IMREAD_GRAYSCALE)
             dft_arr = cv2.dft(np.float32(img_arr) , flags = cv2.DFT_COMPLEX_OUTPUT)
             global dft_shift
-            dft_shift = np.fft.fftshift(dft_arr)    
+            dft_shift = np.fft.fftshift(dft_arr)
             spectrum = 20*np.log(cv2.magnitude(dft_shift[:,:,0], dft_shift[:,:,1]))
             fftimg = cv2.resize(spectrum, (256,256), interpolation=cv2.INTER_AREA)
             cv2.imwrite("/home/tdd/fft123ybygsa.png", fftimg)
